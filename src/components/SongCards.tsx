@@ -42,17 +42,6 @@ export default function SongCards({ songs }: { songs: Song[] }) {
               <Typography variant="subtitle2" gutterBottom>
                 🎤 {song.vocalist}
               </Typography>
-              {song.youtubeLink && (
-                <Typography variant="body2">
-                  <a
-                    href={song.youtubeLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Ссылка на видео
-                  </a>
-                </Typography>
-              )}
               <Box mt={1}>
                 {Object.entries(instrumentLabels).map(([key, emoji]) =>
                   key in song.instruments ? (
