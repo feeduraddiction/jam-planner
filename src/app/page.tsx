@@ -4,22 +4,16 @@ import { useState, useEffect } from "react";
 import { Container, Tabs, Tab, Box, Typography } from "@mui/material";
 import SongTable from "@/components/SongTable";
 import SongCards from "@/components/SongCards";
-
-export interface InstrumentEntry {
-  name: string;
-  required: boolean;
-}
-
 export interface Song {
   song: string;
   vocalist: string;
   youtubeLink: string;
   instruments: {
-    guitar: InstrumentEntry;
-    secondGuitar: InstrumentEntry;
-    bass: InstrumentEntry;
-    drums: InstrumentEntry;
-    keys: InstrumentEntry;
+    guitar: string;
+    secondGuitar: string;
+    bass: string;
+    drums: string;
+    keys: string;
   };
 }
 

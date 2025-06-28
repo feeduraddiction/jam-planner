@@ -8,25 +8,17 @@ import {
   Paper,
 } from "@mui/material";
 import { type Song } from "@/app/page";
+import { countMissing } from "@/utils/countMissing";
 
-const instrumentLabels: Record<keyof Song["instruments"], string> = {
+const instrumentLabels: Record<string, string> = {
   guitar: "🎸",
   secondGuitar: "🎸2",
-  bass: "🎵",
-  drums: "🥁",
+  bass: "🎸b",
   keys: "🎹",
+  drums: "🥁",
 };
 
 export default function SongTable({ songs }: { songs: Song[] }) {
-  const countMissing = (song: Song) => {
-    let missing = 0;
-    for (const key in song.instruments) {
-      const instr = song.instruments[key as keyof typeof song.instruments];
-      if (instr.required && !instr.name) missing++;
-    }
-    return missing;
-  };
-
   return (
     <Paper>
       <Table>
@@ -35,7 +27,6 @@ export default function SongTable({ songs }: { songs: Song[] }) {
             <TableCell>№</TableCell>
             <TableCell>🎤</TableCell>
             <TableCell>Песня</TableCell>
-            <TableCell>🔗</TableCell>
             {Object.entries(instrumentLabels).map(([key, emoji]) => (
               <TableCell key={key}>{emoji}</TableCell>
             ))}
@@ -45,32 +36,34 @@ export default function SongTable({ songs }: { songs: Song[] }) {
           {songs.map((song, index) => {
             const missing = countMissing(song);
             const bgColor =
-              missing === 1 ? "#fff8e1" : missing > 1 ? "#ffebee" : undefined;
+              missing === 1 ? "#fff8e1" : missing > 1 ? "#ffebee" : "#cbe4d6";
 
             return (
               <TableRow key={index} sx={{ backgroundColor: bgColor }}>
                 <TableCell>{index + 1}</TableCell>
                 <TableCell>{song.vocalist}</TableCell>
-                <TableCell>{song.song}</TableCell>
                 <TableCell>
                   {song.youtubeLink ? (
                     <a
-                      href={song.youtubeLink}
                       target="_blank"
                       rel="noopener noreferrer"
+                      href={song.youtubeLink}
                     >
-                      ссылка
+                      {song.song}
                     </a>
                   ) : (
-                    "—"
+                    song.song
                   )}
                 </TableCell>
-                {Object.keys(instrumentLabels).map((key) => (
-                  <TableCell key={key}>
-                    {song.instruments[key as keyof Song["instruments"]].name ||
-                      "—"}
-                  </TableCell>
-                ))}
+                {Object.keys(instrumentLabels).map((key) => {
+                  const val =
+                    song.instruments[key as keyof Song["instruments"]];
+                  return (
+                    <TableCell key={key}>
+                      {val !== undefined ? (val === "" ? "—" : val) : ""}
+                    </TableCell>
+                  );
+                })}
               </TableRow>
             );
           })}

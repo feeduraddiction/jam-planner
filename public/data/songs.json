@@ -5,11 +5,10 @@
       "vocalist": "Victor",
       "youtubeLink": "https://www.youtube.com/watch?v=ompevuR1644",
       "instruments": {
-        "guitar": { "name": "Evgeny", "required": true },
-        "secondGuitar": { "name": "", "required": true },
-        "bass": { "name": "Vikki", "required": true },
-        "drums": { "name": "", "required": true },
-        "keys": { "name": "", "required": false }
+        "guitar": "Evgeny",
+        "secondGuitar": "",
+        "bass": "Vikki",
+        "drums": ""
       }
     },
     {
@@ -17,11 +16,10 @@
       "vocalist": "Victor",
       "youtubeLink": "https://www.youtube.com/watch?v=By7ctqcWxyM",
       "instruments": {
-        "guitar": { "name": "Evgeny", "required": true },
-        "secondGuitar": { "name": "", "required": true },
-        "bass": { "name": "Vikki", "required": true },
-        "drums": { "name": "Ilya", "required": true },
-        "keys": { "name": "", "required": false }
+        "guitar": "Evgeny",
+        "secondGuitar": "",
+        "bass": "Vikki",
+        "drums": "Ilya"
       }
     },
     {
@@ -29,11 +27,10 @@
       "vocalist": "Victor",
       "youtubeLink": "https://www.youtube.com/watch?v=Gw09tAcNB0Q",
       "instruments": {
-        "guitar": { "name": "Evgeny", "required": true },
-        "secondGuitar": { "name": "", "required": true },
-        "bass": { "name": "Vikki", "required": true },
-        "drums": { "name": "", "required": true },
-        "keys": { "name": "", "required": false }
+        "guitar": "Evgeny",
+        "secondGuitar": "",
+        "bass": "Vikki",
+        "drums": ""
       }
     },
     {
@@ -41,11 +38,213 @@
       "vocalist": "Victor",
       "youtubeLink": "https://www.youtube.com/watch?v=DkZRA_apgSc",
       "instruments": {
-        "guitar": { "name": "", "required": true },
-        "secondGuitar": { "name": "", "required": false },
-        "bass": { "name": "Vikki", "required": true },
-        "drums": { "name": "", "required": true },
-        "keys": { "name": "", "required": false }
+        "guitar": "",
+        "bass": "Vikki",
+        "drums": ""
+      }
+    },
+    {
+      "song": "Ray Charles - Mess around (C)",
+      "vocalist": "Арт",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Вася",
+        "drums": "Миша?"
+      }
+    },
+    {
+      "song": "John Lennon - Immagine (C)",
+      "vocalist": "Арт",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Вася",
+        "drums": "Миша?",
+        "keys": "Арт"
+      }
+    },
+    {
+      "song": "Paul Mc Cartney - Lucille (G)",
+      "vocalist": "Арт",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Вася",
+        "drums": "Миша?",
+        "keys": "Арт"
+      }
+    },
+    {
+      "song": "Машина Времяни - Мой друг (C)",
+      "vocalist": "Арт",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Вася",
+        "drums": "Миша?",
+        "keys": "Арт"
+      }
+    },
+    {
+      "song": "Ac/Dc - Highway to hell (A)",
+      "vocalist": "Арт",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Вася",
+        "drums": "Миша?"
+      }
+    },
+    {
+      "song": "Three Days Grace -  I hate everything about you ",
+      "vocalist": "Маша",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "secondGuitar": "Ilya",
+        "bass": "Vikki",
+        "drums": "Арт"
+      }
+    },
+    {
+      "song": "No doubt - Don't speak",
+      "vocalist": "Маша",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Vikki",
+        "drums": "Арт"
+      }
+    },
+    {
+      "song": "Slaughter - Real love",
+      "vocalist": "Маша",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Ilya",
+        "drums": "Арт"
+      }
+    },
+    {
+      "song": "Bon Jovi - It's my life",
+      "vocalist": "Маша",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Ilya",
+        "drums": "Арт",
+        "keys": "Миша?"
+      }
+    },
+    {
+      "song": "KoЯn - Good god",
+      "vocalist": "Davut",
+      "youtubeLink": "https://youtu.be/GHkUCSeTi2I?si=koCG3ogy_Maw5Bz1",
+      "instruments": {
+        "guitar": "Арсений",
+        "bass": "Ilya",
+        "drums": "Арт?"
+      }
+    },
+    {
+      "song": "House of the Rising sun (Cm)",
+      "vocalist": "Alina",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Вася",
+        "drums": "Миша?",
+        "keys": "Арт"
+      }
+    },
+    {
+      "song": "Hush hush (original)",
+      "vocalist": "Alina",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Вася",
+        "drums": "Арт",
+        "keys": ""
+      }
+    },
+    {
+      "song": "Iza - i put a spell on you",
+      "vocalist": "Alina",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Вася",
+        "drums": "Арт",
+        "keys": ""
+      }
+    },
+    {
+      "song": "Loose control (Am)",
+      "vocalist": "Alina",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Вася",
+        "drums": "Арт",
+        "keys": ""
+      }
+    },
+    {
+      "song": "Hit the road jack (Cm)",
+      "vocalist": "Alina",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "Ivan",
+        "bass": "Вася",
+        "drums": "Арт",
+        "keys": ""
+      }
+    },
+    {
+      "song": "The killers - All theese things I've done",
+      "vocalist": "Костя",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "",
+        "bass": "",
+        "drums": "",
+        "keys": ""
+      }
+    },
+    {
+      "song": "Poets of the Fall - fire",
+      "vocalist": "Костя",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "",
+        "bass": "",
+        "drums": "",
+        "keys": ""
+      }
+    },
+    {
+      "song": "Stone Sour - through glass",
+      "vocalist": "Костя",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "",
+        "bass": "",
+        "drums": "",
+        "keys": ""
+      }
+    },
+    {
+      "song": "Stone sour - zzyzx road",
+      "vocalist": "Костя",
+      "youtubeLink": "",
+      "instruments": {
+        "guitar": "",
+        "bass": "",
+        "drums": "",
+        "keys": ""
       }
     }
   ]
