@@ -35,7 +35,7 @@ function getClosestSunday(): string {
   });
 }
 
-export default function SongsPage() {
+export default function HomePage() {
   const [view, setView] = useState("table");
   const [songs, setSongs] = useState<Song[]>([]);
 

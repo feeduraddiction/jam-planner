@@ -1,27 +1,51 @@
 {
   "songs": [
     {
-      "song": "Smells Like Teen Spirit",
-      "vocalist": "Антон",
-      "youtubeLink": "https://www.youtube.com/watch?v=hTWKbfoikeg",
+      "song": "Poets of the Fall - Lift",
+      "vocalist": "Victor",
+      "youtubeLink": "https://www.youtube.com/watch?v=ompevuR1644",
       "instruments": {
-        "guitar": { "name": "Илья", "required": true },
-        "secondGuitar": { "name": "", "required": false },
-        "bass": { "name": "Сергей", "required": true },
-        "drums": { "name": "Андрей", "required": true },
+        "guitar": { "name": "Evgeny", "required": true },
+        "secondGuitar": { "name": "", "required": true },
+        "bass": { "name": "Vikki", "required": true },
+        "drums": { "name": "", "required": true },
         "keys": { "name": "", "required": false }
       }
     },
     {
-      "song": "Creep",
-      "vocalist": "Дима",
-      "youtubeLink": "",
+      "song": "Sum 41 - Pieces",
+      "vocalist": "Victor",
+      "youtubeLink": "https://www.youtube.com/watch?v=By7ctqcWxyM",
       "instruments": {
-        "guitar": { "name": "Саша", "required": true },
+        "guitar": { "name": "Evgeny", "required": true },
+        "secondGuitar": { "name": "", "required": true },
+        "bass": { "name": "Vikki", "required": true },
+        "drums": { "name": "Ilya", "required": true },
+        "keys": { "name": "", "required": false }
+      }
+    },
+    {
+      "song": "Kasabian - Underdog",
+      "vocalist": "Victor",
+      "youtubeLink": "https://www.youtube.com/watch?v=Gw09tAcNB0Q",
+      "instruments": {
+        "guitar": { "name": "Evgeny", "required": true },
+        "secondGuitar": { "name": "", "required": true },
+        "bass": { "name": "Vikki", "required": true },
+        "drums": { "name": "", "required": true },
+        "keys": { "name": "", "required": false }
+      }
+    },
+    {
+      "song": "30 Seconds to Mars - The Story",
+      "vocalist": "Victor",
+      "youtubeLink": "https://www.youtube.com/watch?v=DkZRA_apgSc",
+      "instruments": {
+        "guitar": { "name": "", "required": true },
         "secondGuitar": { "name": "", "required": false },
-        "bass": { "name": "", "required": true },
-        "drums": { "name": "Кирилл", "required": true },
-        "keys": { "name": "Оля", "required": false }
+        "bass": { "name": "Vikki", "required": true },
+        "drums": { "name": "", "required": true },
+        "keys": { "name": "", "required": false }
       }
     }
   ]
